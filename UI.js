@@ -169,8 +169,7 @@ var UIController = (function(){
 
 			for(i = 0; i < positions.lonepairs.centralAtom.length; i++){
 				if(loneElectrons == 0){
-					p.pop()
-					return
+					break
 				}
 				else{
 					let rotation = -1 * angle/2
@@ -188,6 +187,7 @@ var UIController = (function(){
 					loneElectrons -= 2
 				}
 			}
+			p.pop()
 
 		},
 		
