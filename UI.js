@@ -205,7 +205,7 @@ var UIController = (function(){
 
 		},
 
-		drawCharge(p, charge, chargeType){
+		drawCharge(p, charge){
 			if(charge != 0)
 				p.text(charge, p.width - 45, 45)
 		},
